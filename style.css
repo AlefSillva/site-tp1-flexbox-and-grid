@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -426,4 +427,434 @@ footer#info {
 #nome:hover {
     text-decoration: underline;
     color: orange;
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    box-shadow: 6px 4px 7px 0px #00000098;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("assets/fundos/body.avif");
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 30px;
+    height: 130px;
+    width: 100%;
+    background-color: #000000;
+    background-image: url("assets/fundos/footer.avif");
+    background-size: cover;
+    box-shadow: 0px 3px 60px 2px #000000;
+}
+
+.container-logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo>img {
+    height: 70px;
+    width: auto;
+}
+
+#titulo {
+    padding: 1rem;
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #00ffd5;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 66px 0 0;
+    gap: 30px;
+    padding: 10px;
+    height: 120px;
+
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 2px 20px;
+    font-weight: 600;
+    text-shadow: 0px 0px 6.5px #cc00ff;
+    border-radius: 15px;
+}
+
+
+li a:hover {
+    background-color: #bbff009d;
+    border-radius: 10px;
+    text-shadow: 0px 0px 7px #000000;
+    font-weight: 700;
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #d0ff00;
+    margin: 1rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.img-estilo {
+    border: 1px solid rgb(100, 38, 136);
+    border-radius: 15px;
+    box-shadow: 6px 4px 7px 0px #00000098;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #d0ff00;
+}
+
+.container-exercicios {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 290px;
+}
+
+.container-exercicios img {
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 7px 0px rgb(0 0 0 / 89%);
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+}
+
+.container-exercicios img:hover {
+    border: 2px solid white;
+    box-shadow: 0px -0px 17px 6px #c5fd2a;
+    border-radius: 15px;
+}
+
+
+/* =======================================================*/
+
+/* EX-01 */
+.container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    padding: 1rem 1rem 0 0;
+    background-color: #dbdbdb;
+    background-image: url("https://wallpapers.com/images/hd/4k-space-background-4v1sv1hbmbn8wmim.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+/* =======================================================*/
+
+/* EX-02 */
+.container2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: #FFE8D1;
+    background-image: url("https://img.wallpapic-br.com/i8043-415-69/thumb/planeta-espaco-sideral-lua-universo-imagem-de-fundo.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+
+/* =======================================================*/
+
+/* EX-03 */
+.container3 {
+    display: flex;
+    padding: 1rem 1rem 0 1rem;
+    gap: 20px;
+    background-color: #75704E;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220710/pngtree-nebula-gas-cloud-in-deep-outer-space-background-night-starfield-photo-image_6189556.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+#ctn3-item1 {
+    flex-grow: 1;
+}
+
+/* =======================================================*/
+
+/* EX-04 */
+.container4 {
+    display: flex;
+    padding: 1rem 1rem 1.5rem 1rem;
+    gap: 20px;
+    background-color: #68C3D4;
+    background-image: url("https://c.pxhere.com/photos/aa/24/dark_nebula_HD_wallpaper_horsehead_nebula_space_stars-910145.jpg!d");
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.container4 img {
+    flex-shrink: 1;
+    flex-basis: 200px;
+    min-width: 50px;
+    width: auto;
+    border: 1px solid rgb(100, 38, 136);
+    border-radius: 15px;
+    box-shadow: 6px 4px 7px 0px #00000098;
+}
+
+#ctn4-item3 {
+    flex-shrink: 0;
+}
+
+/* =======================================================*/
+
+/* EX-05 */
+.container5 {
+    display: flex;
+    padding: 1rem 1rem 0 1rem;
+    gap: 20px;
+    background-color: #C5283D;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20241213/pngtree-a-striking-planet-and-the-sun-in-perfect-alignment-against-vastness-image_16785344.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.container5>img {
+    flex: 1 1 auto;
+}
+
+#ctn5-item2 {
+    flex-basis: 200px;
+}
+
+/* =======================================================*/
+
+/* EX-06 */
+.container6 {
+    display: flex;
+    padding: 1rem 0 1.5rem 1rem;
+    gap: 20px;
+    background-color: #EEF5DB;
+    background-image: url("https://wallpapers.com/images/hd/colorful-planets-4k-space-erd5m7yzj9vpox9r.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+/* =======================================================*/
+
+/* EX-07 */
+.container7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 0 1rem 1rem;
+    gap: 20px;
+    background-color: #FFE74C;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/886/329/102/outer-space-2560x1440-space-outer-space-hd-art-wallpaper-preview.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+/* =======================================================*/
+
+/* EX-08 */
+.container8 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+    gap: 20px;
+    background-color: #587D71;
+    background-image: url("https://img.wallpapic-br.com/i8621-241-725/medium/espaco-montanhas-sideral-lua-imagem-de-fundo.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+/* =======================================================*/
+
+/* EX-09 */
+.container9 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding: 1rem 1rem 0 1rem;
+    background-color: #E9D2F4;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto 20px;
+}
+
+
+/* =======================================================*/
+
+/* EX-10 */
+.container10 {
+    display: flex;
+    padding: 1rem 0 1rem 1rem;
+    gap: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-color: #4DAA57;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* =======================================================*/
+
+/* EX-11 */
+.container11 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0 1rem 1rem;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-color: #F7A072;
+}
+
+.container-flex-horizontal {
+    display: flex;
+    gap: 15px;
+}
+
+/* =======================================================*/
+
+/* EX-12 */
+.container12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 1rem 0 1rem 1rem;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-color: #DCD6F7;
+}
+
+/* =======================================================*/
+
+/* EX-13 */
+.container13 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding: 1rem 0 1rem 1rem;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-color: #593C8F;
+
+}
+
+/* =======================================================*/
+
+footer#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px 40px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    background-image: url("assets/fundos/footer.avif");
+    background-size: cover;
+    
+}
+
+#contato,
+#copy {
+    text-align: center;
+}
+
+#img-footer {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+#img-footer img {
+    width: 30px;
+    height: 30px;
+    border: 1px thin white;
+    border-radius: 7px;
+    box-shadow: 0px -0px 5.7px 3px #fff;
+}
+
+#img-footer img:hover{
+
+    box-shadow: 0px -0px 8px 4px #c5fd2a;
+}
+
+#nome {
+    color: #c5fd2a;
+    text-decoration: none;
+}
+
+#nome:hover {
+    text-decoration: underline;
+    color: orange;
+>>>>>>> 5c23753a788458f68d4eb0532efbdb285e387f5a
 }
