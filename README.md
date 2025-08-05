@@ -34,7 +34,7 @@ Para visualizar a aplicação, basta abrir o arquivo `index.html` no navegador. 
 
 Para conferir o resultado final diretamente no link abaixo:
 
-[**[https://alefsillva.github.io/site-tp1-flexbox-and-grid/index.html]**]()
+[Clique aqui para ver o site funcionando](https://alefsillva.github.io/site-tp1-flexbox-and-grid/index.html)
 
 ---
 
