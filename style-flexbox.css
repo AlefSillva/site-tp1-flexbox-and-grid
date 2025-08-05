@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    box-shadow: 6px 4px 7px 0px #00000098;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 30px;
+    height: 130px;
+    width: 100%;
+    background-color: #000000;
+    background-image: url("https://img.freepik.com/fotos-premium/banner-textura-de-fundo-do-espaco-sideral-estrelado_78899-4532.jpg");
+    background-size: cover;
+    box-shadow: 0px 3px 60px 2px #000000;
+}
+
+.container-logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo>img {
+    height: 70px;
+    width: auto;
+}
+
+#titulo {
+    padding: 1rem;
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #00ffd5;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 66px 0 0;
+    gap: 30px;
+    padding: 10px;
+    height: 120px;
+}
+
+.itens-menu {
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #cc00ff;
+}
+
+.itens-menu:hover {
+    color: #fff;
+    background-color: #ff8800a6;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.menu li {
+    position: relative;
+    list-style: none;
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 2px 20px;
+    font-weight: 600;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px -0px 10px 4px #cc00ff;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 180px;
+    z-index: 999;
+}
+
+.submenu li {
+    list-style: none;
+    padding: 5px;
+    margin: 0 2px 2px 2px;
+    border: 0.4px solid #ffffff;
+    box-shadow: 0px -0px 13px 6px #cc00ff;
+    border-radius: 5px;
+    background: #892596af;
+}
+
+.itens-submenu {
+    display: block;
+    padding: 6px;
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #000000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+}
+
+.submenu a:hover {
+    background-color: #00f7ffb4;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+/* =================================================== */
+
+h2 {
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #d0ff00;
+    margin: 10rem 0 2rem 2rem;
+}
+
+hr {
+    margin-bottom: 10rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.img-estilo {
+    border: 1px solid rgb(100, 38, 136);
+    border-radius: 15px;
+    box-shadow: 6px 4px 7px 0px #00000098;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 0px 0px 6.5px #d0ff00;
+}
+
+.container-exercicios {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 290px;
+}
+
+.container-exercicios img {
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 7px 0px rgb(0 0 0 / 89%);
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+}
+
+.container-exercicios img:hover {
+    border: 2px solid white;
+    box-shadow: 0px -0px 17px 6px #c5fd2a;
+    border-radius: 15px;
+}
+
+
+/* =======================================================*/
+
+/* EX-01 */
+.container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    padding: 1rem 1rem 0 0;
+    background-image: url("assets/fundos/f1.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+/* =======================================================*/
+
+/* EX-02 */
+.container2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-image: url("assets/fundos/f2.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+
+/* =======================================================*/
+
+/* EX-03 */
+.container3 {
+    display: flex;
+    padding: 1rem 1rem 0 1rem;
+    gap: 20px;
+    background-image: url("assets/fundos/f3.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+#ctn3-item1 {
+    flex-grow: 1;
+}
+
+/* =======================================================*/
+
+/* EX-04 */
+.container4 {
+    display: flex;
+    padding: 1rem 1rem 1.5rem 1rem;
+    gap: 20px;
+    background-image: url("assets/fundos/f4.png");
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.container4 img {
+    flex-shrink: 1;
+    flex-basis: 200px;
+    min-width: 50px;
+    width: auto;
+    border: 1px solid rgb(100, 38, 136);
+    border-radius: 15px;
+    box-shadow: 6px 4px 7px 0px #00000098;
+}
+
+#ctn4-item3 {
+    flex-shrink: 0;
+}
+
+/* =======================================================*/
+
+/* EX-05 */
+.container5 {
+    display: flex;
+    padding: 1rem 1rem 0 1rem;
+    gap: 20px;
+    background-image: url("assets/fundos/f5.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.container5>img {
+    flex: 1 1 auto;
+}
+
+#ctn5-item2 {
+    flex-basis: 200px;
+}
+
+/* =======================================================*/
+
+/* EX-06 */
+.container6 {
+    display: flex;
+    padding: 1rem 0 1.5rem 1rem;
+    gap: 20px;
+    background-image: url("assets/fundos/f6.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+/* =======================================================*/
+
+/* EX-07 */
+.container7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 0 1rem 1rem;
+    gap: 20px;
+    background-image: url("assets/fundos/f7.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+/* =======================================================*/
+
+/* EX-08 */
+.container8 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+    gap: 20px;
+    background-image: url("assets/fundos/f8.jpg");
+    background-size: cover;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+
+}
+
+/* =======================================================*/
+
+/* EX-09 */
+.container9 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding: 1rem 1rem 0 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto 20px;
+    background-image: url("assets/fundos/f9.avif");
+    background-position: center;
+}
+
+
+/* =======================================================*/
+
+/* EX-10 */
+.container10 {
+    display: flex;
+    padding: 1rem 0 1rem 1rem;
+    gap: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-image: url("assets/fundos/f10.avif");
+    background-size: cover;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* =======================================================*/
+
+/* EX-11 */
+.container11 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0 1rem 1rem;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-image: url("assets/fundos/f11.avif");
+    background-size: cover;
+}
+
+.container-flex-horizontal {
+    display: flex;
+    gap: 15px;
+}
+
+/* =======================================================*/
+
+/* EX-12 */
+.container12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 1rem 0 1rem 1rem;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-image: url("assets/fundos/f12.avif");
+    background-position: center;
+}
+
+/* =======================================================*/
+
+/* EX-13 */
+.container13 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding: 1rem 0 1rem 1rem;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 20px;
+    background-image: url("assets/fundos/f13.avif");
+    background-size: cover;
+
+}
+
+/* =======================================================*/
+
+footer#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px 40px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    background-image: url("https://img.freepik.com/fotos-premium/banner-textura-de-fundo-do-espaco-sideral-estrelado_78899-4532.jpg");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#contato,
+#copy {
+    text-align: center;
+}
+
+#img-footer {
+    margin-top: 10px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+#img-footer img {
+    width: 30px;
+    height: 30px;
+    border: 1px thin white;
+    border-radius: 7px;
+    box-shadow: 0px -0px 5.7px 3px #fff;
+}
+
+#img-footer img:hover {
+
+    box-shadow: 0px -0px 8px 4px #c5fd2a;
+}
+
+#nome {
+    color: #c5fd2a;
+    text-decoration: none;
+}
+
+#nome:hover {
+    text-decoration: underline;
+    color: orange;
+}
